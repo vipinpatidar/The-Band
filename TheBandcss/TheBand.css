@@ -1,0 +1,123 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* navbar css */
+.drophover:hover .btnhov {
+   display: block;
+}
+/* slide image css */
+.slidediv{
+max-width: 2000px;
+margin-top: 46px;
+}
+.slideimg{
+    width: 100%;
+}
+/* band info css */
+.bandcss{
+    max-width: 900px;
+    text-align: center;
+    margin: 55px auto 55px;
+}
+.bandpera{
+    text-align: justify;
+}
+.bandvipin{
+    margin: 30px auto 30px;   
+}
+.bandimg{
+    width: 60%;
+}
+/* tour details css */
+.tourcss{
+    background-color: black; 
+   
+}
+.tourwidth{
+    max-width: 900px;
+
+}
+.tourhead{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+
+/* shows booking card */
+
+.soldout{
+    background-color: red;
+    color: aliceblue;
+    margin-left: 20%;
+}
+.num3{
+    background-color: black;
+    color: white;
+    border-radius: 95%;
+    margin-left: 60%; 
+}
+/* card with imag */
+.imgcard-fluid{
+    padding: 20px 0;
+}
+
+.imgcard{
+    padding: 0 25px ;
+    
+}
+.btn:hover{
+    background-color: gray;
+}
+/* contact details */
+.contact-fluid{
+    height: 500px;
+}
+.contacthead{
+    text-align: center;
+    margin: 100px 0 100px 0;
+}
+/* contact info and icon */
+.contactdata{
+    margin-left: 50%;
+    line-height: 2;
+}
+.contacttext{
+    margin-right: 40%;
+    line-height: 2;
+}
+/* contact box */
+.small-box{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.big-box{
+    width: 90%;
+}
+.send-box{
+    margin-left: 50%;
+    margin-top: 10px;
+}
+/* last image */
+.last-img{
+   width: 100%;
+}
+/* footer */
+#footer{
+    text-align: center;
+    margin: 50px auto 50px;
+}
+/* media qurey */
+
+@media (max-width:576px){
+.imgcard{
+    padding: 16px 25% 16px;
+}
+
+.contactdata{
+text-align: left;
+margin: 5% 10%;
+}
+.contacttext{margin: auto;}
+}
+
